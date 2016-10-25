@@ -5,10 +5,9 @@ package ly.generalassemb.drewmahrt.shoppinglistver2;
  */
 
 public class ItemObject {
-    private String mItemName, mDescription, mType;
-    private double mPrice;
+    private String mItemName, mDescription, mType, mPrice;
 
-    public ItemObject(String itemName, String description, double price, String type) {
+    public ItemObject(String itemName, String description, String price, String type) {
         mItemName = itemName;
         mDescription = description;
         mPrice = price;
@@ -31,11 +30,11 @@ public class ItemObject {
         mItemName = itemName;
     }
 
-    public double getPrice() {
+    public String getPrice() {
         return mPrice;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(String price) {
         mPrice = price;
     }
 
