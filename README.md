@@ -27,7 +27,7 @@ See the screenshot below for the column names of the table in the database.
 - Make a RecyclerView (with all required components) to display the names of the grocery items
 
 **Bonus:**
-- Create a custom layout for the ListView item to show more info from the database
+- Create a custom layout for the item in the RecyclerViewto show more info from the database
 
 #### Starter code
 
